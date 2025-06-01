@@ -1,5 +1,0 @@
-{
-  "dev": "mvn validate -P hello",
-  "sit": "mvn validate -P hello",
-  "feature": "mvn validate -P hello"
-}
