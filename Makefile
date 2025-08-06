@@ -1,7 +1,7 @@
 .PHONY: dev
 dev: ## Run tests
-	curl google.com
+	mvn validate -P hello
 
 .PHONY: qa
 qa: ## Run tests
-	curl amazon.com
+	mvn validate -P hello
